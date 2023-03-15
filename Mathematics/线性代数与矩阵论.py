@@ -4,7 +4,7 @@ import numpy as np
 # 定义矩阵A和矩阵B
 A = np.array([[1, 0], [0, 1]])
 B = np.array([[4, 1], [2, 2]])
-
+b=np.array([9,8])
 # 计算矩阵A和矩阵B的乘积，得到矩阵C
 C = np.dot(A, B)
 
@@ -15,8 +15,10 @@ E=np.array([[1,0,0],[0,1,0],[0,0,5]])
 F=np.array([[1,2,3],[4,5,6],[7,8,9]])
 G=np.linalg.det(E)
 H=np.linalg.det(F)
+I=np.linalg.solve(A,b)
 # 输出矩阵C和矩阵D
 print(C)
 print(D)
 print(G)
 print(H)
+print(I)

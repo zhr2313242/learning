@@ -11,6 +11,12 @@ C = np.dot(A, B)
 # 计算矩阵C的逆矩阵，得到矩阵D
 D = np.linalg.inv(C)
 
+E=np.array([[1,0,0],[0,1,0],[0,0,5]])
+F=np.array([[1,2,3],[4,5,6],[7,8,9]])
+G=np.linalg.det(E)
+H=np.linalg.det(F)
 # 输出矩阵C和矩阵D
 print(C)
 print(D)
+print(G)
+print(H)
